@@ -4,7 +4,7 @@ body{
   color: #111111;
   height: 600px;
 }
-h1, ul, p{
+h1, h2, h3, h4, ul, p{
   margin: 0%;
 }
 ul{
@@ -18,4 +18,7 @@ a{
 img{
   max-width: 100%;
   display: block;
+}
+img[src$=".jpg"]{
+  border-radius: 4px;
 }
