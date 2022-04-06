@@ -1,12 +1,13 @@
 .tecnologia-bg{
   background-color: var(--cor-11);
+  box-shadow: inset 0 120px blue;
 }
 .tecnologia{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
-.tecnologia img{
+.tecnologia-imagem img{
   width: 100%;
   height: 100%;
   object-fit: cover;
