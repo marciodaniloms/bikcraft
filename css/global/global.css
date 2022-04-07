@@ -22,3 +22,6 @@ img{
 img[src$=".jpg"]{
   border-radius: 4px;
 }
+.espaco{
+  height: 300px;
+}
